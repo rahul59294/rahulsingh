@@ -6,14 +6,29 @@
   <title>Rahul Kumar Singh | Data Analyst</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .dark-mode {
+      background-color: #1f2937;
+      color: #f9fafb;
+    }
+    .dark-mode a {
+      color: #60a5fa;
+    }
+  </style>
 </head>
-<body class="bg-gray-100 text-gray-800 font-sans">
+<body class="bg-gray-100 text-gray-800 font-sans transition-colors duration-300">
   <div class="max-w-4xl mx-auto p-6">
-    <header class="mb-6">
-      <h1 class="text-4xl font-bold text-blue-800">Rahul Kumar Singh</h1>
-      <p class="text-lg">🎯 Data Analyst | Sports Analytics Enthusiast</p>
-      <p class="mt-1">📍 Passionate about uncovering insights from data and turning them into actionable strategies.</p>
-    </header>
+    <div class="flex justify-between items-center mb-6">
+      <header>
+        <h1 class="text-4xl font-bold text-blue-800">Rahul Kumar Singh</h1>
+        <p class="text-lg">🎯 Data Analyst | Sports Analytics Enthusiast</p>
+        <p class="mt-1">📍 Passionate about uncovering insights from data and turning them into actionable strategies.</p>
+      </header>
+      <button onclick="toggleDarkMode()" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Toggle Theme</button>
+    </div>
 
     <section class="mb-8">
       <h2 class="text-2xl font-semibold text-blue-700 mb-2">🚀 Projects</h2>
@@ -41,6 +56,11 @@
           <li>🔧 Tools Used: Power BI, Excel, SQL</li>
         </ul>
       </details>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-blue-700 mb-2">📊 Analytics Demo</h2>
+      <canvas id="skillsChart" class="bg-white p-4 rounded shadow"></canvas>
     </section>
 
     <section class="mb-8">
@@ -74,6 +94,46 @@
         <li>🌐 Portfolio: <a href="https://rahul59294.github.io/rahulsingh" class="text-blue-600 underline">https://rahul59294.github.io/rahulsingh</a></li>
       </ul>
     </section>
+
+    <div class="text-center mt-10">
+      <a href="#" class="text-blue-700 underline">🔝 Back to Top</a>
+    </div>
   </div>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+
+    const ctx = document.getElementById('skillsChart').getContext('2d');
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Python', 'R', 'SQL', 'Excel', 'Power BI', 'Streamlit'],
+        datasets: [{
+          label: 'Proficiency Level (out of 10)',
+          data: [9, 8, 8, 9, 8, 9],
+          backgroundColor: '#3b82f6'
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              label: (ctx) => `${ctx.label}: ${ctx.parsed.y}/10`
+            }
+          }
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+            max: 10
+          }
+        }
+      }
+    });
+  </script>
 </body>
 </html>
