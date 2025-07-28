@@ -12,14 +12,45 @@
       padding: 0;
       background-color: #f9f9f9;
       color: #333;
+      display: flex;
     }
-    header, section {
+    .sidebar {
+      width: 250px;
+      background-color: #007acc;
+      color: white;
+      padding: 20px;
+      height: 100vh;
+      box-sizing: border-box;
+      position: fixed;
+    }
+    .sidebar h2 {
+      margin-top: 0;
+    }
+    .sidebar a.button {
+      display: block;
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #005c99;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      text-align: center;
+      transition: background-color 0.3s ease;
+    }
+    .sidebar a.button:hover {
+      background-color: #004d80;
+    }
+    .main-content {
+      margin-left: 270px;
       padding: 20px;
       max-width: 900px;
-      margin: auto;
+      box-sizing: border-box;
     }
     h1, h2 {
       color: #007acc;
+    }
+    ul {
+      padding-left: 20px;
     }
     .button {
       display: inline-block;
@@ -34,77 +65,80 @@
     .button:hover {
       background-color: #005c99;
     }
-    ul {
-      padding-left: 20px;
-    }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>Rahul Kumar Singh</h1>
-    <p><strong>Data Analyst | Sports Analytics Enthusiast</strong></p>
-    <p>Passionate about uncovering insights from data and turning them into actionable strategies.</p>
-  </header>
+  <div class="sidebar" style="background-color: #dbeafe; color: #333;">
+  <h2>📌 About Me</h2>
+  <p>I am a passionate and results-driven data analyst with a keen interest in solving real-world problems through the lens of data. With a strong foundation in statistics and programming, I specialize in sports analytics, business insights, and government evaluation projects. I am skilled in data cleaning, exploration, modeling, and visualization, using tools like Python, R, Excel, and Power BI.</p>
+  <p><strong>Email:</strong><br>rs59294@gmail.com</p>
+  <p><strong>Phone:</strong><br>+91-XXXXXXXXXX</p>
+  <a href="mailto:rs59294@gmail.com" class="button">Hire Me</a>
+  <a href="https://www.linkedin.com/in/rahul-kumar-singh-79933b237/" target="_blank" class="button">LinkedIn</a>
+</div>
 
-  <section id="projects">
-    <h2>🚀 Projects</h2>
-    <h3>📌 1. Predictive Model for Optimal Player Selection in Fantasy Cricket</h3>
-    <ul>
-      <li>🏏 Built a data-driven model to select the best playing XI using player performance, match conditions, and simulation.</li>
-      <li>🔧 Tools Used: Python, Pandas, Streamlit, Matplotlib</li>
-    </ul>
+  <div class="main-content">
+    <header>
+      <h1>Rahul Kumar Singh</h1>
+      <p><strong>Data Analyst | Sports Analytics Enthusiast</strong></p>
+      <p>Passionate about uncovering insights from data and turning them into actionable strategies.</p>
+    </header>
 
-    <h3>📌 2. Evaluation of "Training and Motivational Tours for Livestock Keepers" Scheme</h3>
-    <ul>
-      <li>📈 Analyzed data from beneficiaries, non-beneficiaries, trainers, and officers to assess the scheme’s effectiveness.</li>
-      <li>🔧 Tools Used: Power BI, Excel, R</li>
-    </ul>
+    <section id="projects">
+      <h2>🚀 Projects</h2>
+      <h3>📌 1. Predictive Model for Optimal Player Selection in Fantasy Cricket</h3>
+      <ul>
+        <li>🏏 Built a data-driven model to select the best playing XI using player performance, match conditions, and simulation.</li>
+        <li>🔧 Tools Used: Python, Pandas, Streamlit, Matplotlib</li>
+      </ul>
 
-    <h3>📌 3. Sales Insights of Consumer Goods</h3>
-    <ul>
-      <li>📈 Analyzed sales data to understand market trends and regional performance for a consumer goods company.</li>
-      <li>🔧 Tools Used: Power BI, Excel, SQL</li>
-    </ul>
-  </section>
+      <h3>📌 2. Evaluation of "Training and Motivational Tours for Livestock Keepers" Scheme</h3>
+      <ul>
+        <li>📈 Analyzed data from beneficiaries, non-beneficiaries, trainers, and officers to assess the scheme’s effectiveness.</li>
+        <li>🔧 Tools Used: Power BI, Excel, R</li>
+      </ul>
 
-  <section id="internship">
-    <h2>💼 Internship</h2>
-    <h3>🏢 Ministry of Statistics and Programme Implementation (MOSPI)</h3>
-    <ul>
-      <li>📆 Duration: 2 Months</li>
-      <li>🎯 Role: Data Analytics Intern</li>
-      <li>📊 Worked in the Evaluation Department, Directorate of Economics and Statistics, analyzing government schemes. Focused on the Livestock Keepers' scheme project.</li>
-    </ul>
-  </section>
+      <h3>📌 3. Sales Insights of Consumer Goods</h3>
+      <ul>
+        <li>📈 Analyzed sales data to understand market trends and regional performance for a consumer goods company.</li>
+        <li>🔧 Tools Used: Power BI, Excel, SQL</li>
+      </ul>
+    </section>
 
-  <section id="skills">
-    <h2>🧠 Skills & Tools</h2>
-    <ul>
-      <li>💻 <strong>Languages:</strong> Python, R, SQL, DAX</li>
-      <li>📊 <strong>Analytics:</strong> Power BI, Excel, Pandas, Streamlit, ggplot2</li>
-      <li>📁 <strong>Techniques:</strong> Regression, Hypothesis Testing, Simulation, Data Visualization</li>
-      <li>🏆 <strong>Domain Focus:</strong> Sports Analytics, Consumer Sales, Government Data</li>
-    </ul>
-  </section>
+    <section id="internship">
+      <h2>💼 Internship</h2>
+      <h3>🏢 Ministry of Statistics and Programme Implementation (MOSPI)</h3>
+      <ul>
+        <li>📆 Duration: 2 Months</li>
+        <li>🎯 Role: Data Analytics Intern</li>
+        <li>📊 Worked in the Evaluation Department, Directorate of Economics and Statistics, analyzing government schemes. Focused on the Livestock Keepers' scheme project.</li>
+      </ul>
+    </section>
 
-  <section id="services">
-    <h2>💼 Services Offered</h2>
-    <ul>
-      <li>📊 Data Cleaning & Visualization (Power BI, Excel, Python, R)</li>
-      <li>📈 Predictive Modeling & Simulation</li>
-      <li>📂 Dashboard Creation & Automation</li>
-      <li>📋 Statistical Analysis (Hypothesis Testing, Regression, ANOVA)</li>
-      <li>📉 Sales & Market Insights Analysis</li>
-    </ul>
-  </section>
+    <section id="skills">
+      <h2>🧠 Skills & Tools</h2>
+      <ul>
+        <li>💻 <strong>Languages:</strong> Python, R, SQL, DAX</li>
+        <li>📊 <strong>Analytics:</strong> Power BI, Excel, Pandas, Streamlit, ggplot2</li>
+        <li>📁 <strong>Techniques:</strong> Regression, Hypothesis Testing, Simulation, Data Visualization</li>
+        <li>🏆 <strong>Domain Focus:</strong> Sports Analytics, Consumer Sales, Government Data</li>
+      </ul>
+    </section>
 
-  <section id="hire">
-    <h2>📬 Hire Me</h2>
-    <p>If you’re looking for a data analyst who combines strong statistical skills with impactful visualizations, I’m available for freelance projects.</p>
-    <a href="mailto:rs59294@gmail.com" class="button">📧 Email Me</a>
-    <a href="https://www.linkedin.com/in/rahul-kumar-singh-79933b237/" target="_blank" class="button">🔗 Connect on LinkedIn</a>
-  </section>
+    <section id="services">
+      <h2>💼 Services Offered</h2>
+      <ul>
+        <li>📊 Data Cleaning & Visualization (Power BI, Excel, Python, R)</li>
+        <li>📈 Predictive Modeling & Simulation (Sports & Business)</li>
+        <li>📂 Dashboard Creation & Automation</li>
+        <li>📋 Statistical Analysis (Hypothesis Testing, Regression, ANOVA)</li>
+        <li>📉 Sales & Market Insights Analysis</li>
+      </ul>
+    </section>
+
+    
+  </div>
 
 </body>
 </html>
