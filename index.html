@@ -27,7 +27,6 @@
         <p class="text-lg">🎯 Data Analyst | Sports Analytics Enthusiast</p>
         <p class="mt-1">📍 Passionate about uncovering insights from data and turning them into actionable strategies.</p>
       </header>
-      <button onclick="toggleDarkMode()" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Toggle Theme</button>
     </div>
 
     <section class="mb-8">
@@ -56,11 +55,6 @@
           <li>🔧 Tools Used: Power BI, Excel, SQL</li>
         </ul>
       </details>
-    </section>
-
-    <section class="mb-8">
-      <h2 class="text-2xl font-semibold text-blue-700 mb-2">📊 Analytics Demo</h2>
-      <canvas id="skillsChart" class="bg-white p-4 rounded shadow"></canvas>
     </section>
 
     <section class="mb-8">
@@ -99,41 +93,5 @@
       <a href="#" class="text-blue-700 underline">🔝 Back to Top</a>
     </div>
   </div>
-
-  <script>
-    function toggleDarkMode() {
-      document.body.classList.toggle('dark-mode');
-    }
-
-    const ctx = document.getElementById('skillsChart').getContext('2d');
-    new Chart(ctx, {
-      type: 'bar',
-      data: {
-        labels: ['Python', 'R', 'SQL', 'Excel', 'Power BI', 'Streamlit'],
-        datasets: [{
-          label: 'Proficiency Level (out of 10)',
-          data: [9, 8, 8, 9, 8, 9],
-          backgroundColor: '#3b82f6'
-        }]
-      },
-      options: {
-        responsive: true,
-        plugins: {
-          legend: { display: false },
-          tooltip: {
-            callbacks: {
-              label: (ctx) => `${ctx.label}: ${ctx.parsed.y}/10`
-            }
-          }
-        },
-        scales: {
-          y: {
-            beginAtZero: true,
-            max: 10
-          }
-        }
-      }
-    });
-  </script>
 </body>
 </html>
