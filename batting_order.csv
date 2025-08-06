@@ -1,0 +1,167 @@
+﻿Player,Team,Order
+B Kumar,RCB,9
+D Padikkal,RCB,3
+JG Bethell,RCB,3
+JM Sharma,RCB,6
+JR Hazlewood,RCB,11
+KH Pandya,RCB,8
+LS Livingstone,RCB,5
+Lungisani Ngidi,RCB,0
+MS Bhandage  ,RCB,6
+Mayank Agarwal,RCB,2
+PD Salt,RCB,1
+RM Patidar  ,RCB,4
+R Shepherd,RCB,8
+TH David,RCB,7
+V Kohli,RCB,2
+Yash Dayal,RCB,10
+A Nortje,KKR,11
+A Raghuvanshi ,KKR,5
+AD Russell ,KKR,7
+AM Rahane ,KKR,3
+AS Roy,KKR,9
+Harshit Rana,KKR,10
+MK Pandey ,KKR,4
+MM Ali ,KKR,7
+Q De Kock,KKR,1
+Rahmanullah Gurbaz,KKR,1
+Ramandeep Singh,KKR,8
+RK Singh,KKR,6
+R Powell ,KKR,7
+SP Narine ,KKR,2
+Spencer Johnson,KKR,11
+Varun Chakaravarthy,KKR,9
+VG Arora ,KKR,11
+VR Iyer ,KKR,4
+A Madhwal,RR,11
+DC Jurel,RR,5
+Fazalhaq Farooqi,RR,0
+JC Archer ,RR,0
+K Kartikeya,RR,9
+Kunal Rathore ,RR,8
+Kwena Maphaka,RR,10
+M Theekshana,RR,9
+N Rana ,RR,3
+R Parag,RR,4
+Sandeep Sharma,RR,9
+SV Samson  ,RR,2
+SO Hetmyer,RR,6
+SB Dubey,RR,5
+TU Deshpande,RR,11
+V Suryavanshi,RR,4
+Wanindu Hasaranga ,RR,7
+YBK Jaiswal,RR,1
+A Manohar,SRH,6
+Abhishek Sharma ,SRH,2
+AU Verma,SRH,7
+A Taide  ,SRH,6
+HV Patel,SRH,9
+H Klaasen,SRH,5
+Ishan Kishan,SRH,3
+Kamindu Mendis,SRH,7
+Mohammad Shami,SRH,11
+Nitish Kumar Reddy,SRH,4
+PJ Cummins ,SRH,8
+Simarjeet Singh,SRH,11
+TM Head ,SRH,1
+Wiaan Mulder  ,SRH,6
+C Bosch ,MI,8
+DL Chahar,MI,9
+HH Pandya,MI,5
+JJ Bumrah,MI,10
+JM Bairstow  ,MI,2
+Karn Sharma ,MI,9
+MJ Santner,MI,8
+NT Tilak Varma,MI,3
+Naman Dhir,MI,6
+RA Bawa,MI,6
+R Minz ,MI,3
+RG Sharma ,MI,1
+RD Rickelton,MI,7
+SA Yadav,MI,4
+TA Boult,MI,11
+V Satyanarayana Penmetsa,MI,11
+WG Jacks,MI,2
+A Kamboj,CSK,10
+A Mhatre ,CSK,7
+DJ Hooda ,CSK,4
+DP Conway,CSK,1
+D Brevis ,CSK,4
+J Overton,CSK,9
+KK Ahmed,CSK,11
+MS Dhoni,CSK,7
+Noor Ahmad,CSK,10
+R Ravindra,CSK,3
+RA Tripathi ,CSK,4
+R Ashwin ,CSK,9
+RA Jadeja,CSK,6
+RD Gaikwad,CSK,2
+SM Curran ,CSK,8
+SK Rasheed ,CSK,6
+S Dube,CSK,5
+UV Patel ,CSK,7
+V Shankar,CSK,6
+Abishek Porel,DC,4
+AR Sharma,DC,7
+AR Patel,DC,6
+Donovan Ferreira  ,DC,0
+Dushmantha Chameera,DC,10
+F du Plessis ,DC,3
+J Fraser0McGurk ,DC,2
+KL Rahul,DC,1
+KK Nair ,DC,5
+Kuldeep Yadav,DC,8
+Madhav Tiwari ,DC,7
+MA Starc,DC,9
+Mustafizur Rahman ,DC,11
+Sameer Rizvi,DC,6
+Sediqullah Atal ,DC,5
+T Stubbs,DC,5
+V Nigam,DC,7
+Abdul Samad,LSG,7
+AK Markram ,LSG,1
+Akash Deep,LSG,11
+Avesh Khan,LSG,9
+A Badoni ,LSG,6
+DA Miller,LSG,5
+Digvesh Singh,LSG,11
+Matthew Breetzke ,LSG,6
+MR Marsh ,LSG,2
+N Pooran,LSG,4
+Prince Yadav,LSG,8
+Ravi Bishnoi,LSG,8
+RR Pant,LSG,3
+Shahbaz Ahmed ,LSG,7
+SN Thakur,LSG,8
+G Coetzee ,GT,10
+JC Buttler,GT,2
+K Rabada,GT,11
+Kusal Mendis,GT,4
+Mohammed Siraj,GT,10
+Arshad Khan,GT,8
+R Tewatia,GT,6
+Rashid Khan,GT,9
+R Sai Kishore ,GT,11
+B Sai Sudharsan ,GT,3
+M Shahrukh Khan,GT,5
+SE Rutherford ,GT,5
+Shubman Gill  ,GT,1
+Washington Sundar ,GT,7
+Arshdeep Singh,PBSK,10
+Azmatullah Omarzai,PBSK,7
+GJ Maxwell ,PBSK,5
+Harpreet Brar,PBSK,9
+JP Inglis,PBSK,4
+KA Jamieson,PBSK,10
+LH Ferguson,PBSK,11
+M Jansen,PBSK,8
+MP Stoinis,PBSK,6
+Mitch Owen ,PBSK,6
+Musheer Khan  ,PBSK,7
+N Wadhera,PBSK,6
+Prabhsimran Singh  ,PBSK,1
+P Arya,PBSK,2
+Shashank Singh,PBSK,7
+SS Iyer  ,PBSK,3
+Suryansh Shedge ,PBSK,6
+XC Bartlett ,PBSK,11
