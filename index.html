@@ -16,10 +16,10 @@
     }
     .sidebar {
       width: 320px;
-      background-color: #007acc;
-      color: white;
+      background-color: #dbeafe;
+      color: #333;
       padding: 20px;
-      height: 100vh;
+      min-height: 100vh;
       box-sizing: border-box;
       position: fixed;
     }
@@ -65,17 +65,36 @@
     .button:hover {
       background-color: #005c99;
     }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 8px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #dbeafe;
+      color: #333;
+    }
+    tr:nth-child(even) {
+      background-color: #f0f7ff;
+    }
   </style>
 </head>
 <body>
 
-  <div class="sidebar" style="background-color: #dbeafe; color: #333;">
+  <div class="sidebar">
     <h2>📌 About Me</h2>
-    <p>I am a postgraduate student in Statistics with expertise in Python, R, SQL, and Power BI. Experienced in working with large datasets, statistical modelling, and applied analytics, I focus on transforming raw data into meaningful insights for decision-making. My project portfolio spans sports analytics, sales insights, and evaluation of government schemes, along with an ongoing AI-driven data automation platform.</p>
+    <p>Postgraduate Statistics student with hands-on experience in data analysis, dashboard development, and performance reporting. Skilled in R, Python, SQL, Power BI, and Tableau, with a strong track record building KPI dashboards, automating reporting pipelines, and delivering actionable insights to support strategic decision-making.</p>
+    <p><strong>📍 Location:</strong><br>Dhanbad, India</p>
     <p><strong>📧 Email:</strong><br>rs59294@gmail.com</p>
     <p><strong>📞 Phone:</strong><br>+91-9006758560</p>
     <a href="mailto:rs59294@gmail.com" class="button">📩 Hire Me</a>
     <a href="https://www.linkedin.com/in/rahul-kumar-singh-79933b237/" target="_blank" class="button">🔗 LinkedIn</a>
+    <a href="https://github.io/rahulsingh" target="_blank" class="button">💻 GitHub</a>
     <a href="resume.pdf" download class="button">📄 Download Resume</a>
   </div>
 
@@ -86,83 +105,150 @@
           Data Analyst | Insight-Driven Problem Solver
         </span>
       </h1>
-      <p>Passionate about uncovering insights from data and turning them into actionable strategies.</p>
+      <p>Passionate about uncovering insights from data and turning them into actionable strategies. Experienced in communicating findings clearly to both technical and non-technical audiences.</p>
     </header>
 
-    <section id="projects">
-      <h2>📂 Projects</h2>
-      
-      <h3>1. Predictive Model for Optimal Player Selection in Fantasy Cricket</h3>
-      <ul>
-        <li>Developed an interactive Streamlit app integrating multiple IPL datasets with weighted scoring logic.</li>
-        <li>Enabled visualization of player stats and optimal XI selection with CSV export option.</li>
-        <li><strong>Tools Used:</strong> Python, Pandas, Streamlit, Matplotlib</li>
-      </ul>
+    <section id="education">
+      <h2>🎓 Education</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>Degree</th>
+            <th>Institution</th>
+            <th>Result</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2024–2026</td>
+            <td>Master's in Statistics</td>
+            <td>Amity University, Noida</td>
+            <td>8.06 CGPA</td>
+          </tr>
+          <tr>
+            <td>2021–2024</td>
+            <td>Bachelor of Science (Statistics)</td>
+            <td>St. Xavier's College, Ahmedabad</td>
+            <td>7.1 CGPA</td>
+          </tr>
+          <tr>
+            <td>2019–2020</td>
+            <td>Class XII (CBSE)</td>
+            <td>DAV Model School, Digwadih</td>
+            <td>85%</td>
+          </tr>
+          <tr>
+            <td>2018–2019</td>
+            <td>Class X (ICSE)</td>
+            <td>De Nobili School, Digwadih</td>
+            <td>82%</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><strong>Key Coursework:</strong> Linear regression, hypothesis testing, statistical quality control, sampling theory, inference, stochastic processes, biostatistics, modelling and simulation, design of experiments, ANOVA, operations research, econometrics, Python, R.</p>
+    </section>
 
-      <h3>2. Automated Dashboard for Real-Time Sales Insights</h3>
+    <section id="skills">
+      <h2>🧠 Skills &amp; Tools</h2>
       <ul>
-        <li>Built a dynamic Power BI dashboard connected to SQL for tracking KPIs, trends, and performance.</li>
-        <li>Delivered real-time insights to support data-driven business decisions.</li>
-        <li><strong>Tools Used:</strong> Power BI, Excel, SQL</li>
-      </ul>
-
-      <h3>3. Evaluation of "Training and Motivational Tours for Livestock Keepers" Scheme</h3>
-      <ul>
-        <li>Conducted survey-based analysis to assess scheme effectiveness and beneficiary impact.</li>
-        <li>Applied regression and hypothesis testing to measure outcomes and propose improvements.</li>
-        <li><strong>Tools Used:</strong> R, Excel, Power BI</li>
-      </ul>
-
-      <h3>4. StatEase: From Raw Inputs to Ready Reports (Ongoing)</h3>
-      <ul>
-        <li>Contributing to an AI-driven platform for MoSPI automating data cleaning, anomaly detection, and reporting.</li>
-        <li>Integrates machine learning models for scalable and transparent statistical analysis.</li>
-        <li><strong>Tools Used:</strong> Python, Scikit-learn, Streamlit, Power BI</li>
+        <li><strong>Programming:</strong> R, Python, SQL, NumPy, Pandas, Matplotlib, Scikit-learn, MATLAB, LaTeX</li>
+        <li><strong>Data Tools:</strong> MS Office, Power BI, Tableau, Excel, Streamlit, Data Visualization, Dashboard Creation, Machine Learning</li>
+        <li><strong>Statistical Tools:</strong> Econometrics, Regression (Linear &amp; Logistic), Predictive Modeling, Hypothesis Testing, Survey Analysis, Data Validation, Estimation, Scenario Analysis, Forecasting, Time Series Analysis, ANOVA</li>
+        <li><strong>Analytics:</strong> Campaign &amp; performance reporting, Marketing analytics, Attribution analysis, Optimisation, KPI tracking</li>
+        <li><strong>Research Skills:</strong> Data Analysis, Empirical and Institutional studies, Data Cleaning, Literature Review, Report Writing</li>
+        <li><strong>Soft Skills:</strong> Problem-solving, Critical thinking, Logical Reasoning, Communication, Stakeholder management</li>
       </ul>
     </section>
 
     <section id="internship">
-      <h2>🎓 Internship</h2>
-    
-      <h3>Ministry of Statistics and Programme Implementation (MoSPI)</h3>
+      <h2>💼 Experience</h2>
+
+      <h3>Data &amp; Analytics Intern – Ministry of Statistics and Programme Implementation (MoSPI)</h3>
+      <p><em>May 2025 – Jul 2025</em></p>
       <ul>
-        <li>Duration: 2 Months</li>
-        <li>Role: Data Analytics Intern</li>
-        <li>Worked in the Evaluation Department, handling survey datasets, data cleaning, and policy-driven analysis.</li>
-        <li>Contributed to evaluation of schemes including the Livestock Keepers’ project.</li>
+        <li>Analysed 50,000+ macroeconomic and survey data records to evaluate policy effectiveness and support strategic decision-making.</li>
+        <li>Processed, cleaned, and validated raw survey data using R, ensuring consistency and accuracy for reliable performance reporting.</li>
+        <li>Developed a Power BI dashboard tracking 10+ KPIs, enabling real-time performance monitoring for stakeholder reporting.</li>
+        <li>Prepared a comprehensive analytical report translating complex findings into actionable recommendations for stakeholders.</li>
       </ul>
-    
-      <h3>Aashraya NGO</h3>
+
+      <h3>Community Outreach Intern – Aashraya NGO</h3>
+      <p><em>Jul 2025 – Oct 2025</em></p>
       <ul>
-        <li>Duration: July 2025 – October 2025</li>
-        <li>Role: Community & Data Intern</li>
-        <li>Contributed to education and community outreach campaigns through event planning and awareness drives.</li>
-        <li>Collected and documented field data for monitoring and impact assessment of social initiatives.</li>
-        <li>Strengthened communication and coordination skills while working with diverse community groups.</li>
+        <li>Coordinated education and community development initiatives across 10+ slum areas, impacting multiple beneficiary groups.</li>
+        <li>Organised fundraising campaigns raising Rs. 1,00,000+ to fund construction of a community computer lab.</li>
+        <li>Facilitated communication between volunteers and stakeholders, supporting smoother execution of activities.</li>
       </ul>
     </section>
 
-    <section id="skills">
-      <h2>🧠 Skills & Tools</h2>
+    <section id="projects">
+      <h2>📂 Projects &amp; Academic Research</h2>
+
+      <h3>1. Automated Dashboard for Real-Time Sales Insights</h3>
       <ul>
-        <li><strong>Programming:</strong> Python, R, SQL, Stata</li>
-        <li><strong>Analytics Tools:</strong> Power BI, Excel, Streamlit</li>
-        <li><strong>Statistics & Modelling:</strong> Regression, Hypothesis Testing, Simulation, Forecasting, ANOVA, Time Series</li>
-        <li><strong>Other:</strong> Data Visualization, Survey Design, Report Writing, Communication</li>
+        <li>Built a Power BI dashboard integrating 6 data sources (200,000+ records) via SQL-based ETL pipelines to deliver real-time KPIs and automate routine performance reporting.</li>
+        <li>Applicable to campaign performance measurement and marketing attribution.</li>
+        <li><strong>Tools Used:</strong> Power BI, SQL, Excel</li>
+      </ul>
+
+      <h3>2. Predictive Model for Optimal Player Selection in Fantasy Cricket</h3>
+      <ul>
+        <li>Developed an interactive Streamlit app integrating 20+ IPL datasets spanning 5 years of season data.</li>
+        <li>Implemented weighted scoring logic to generate optimal team selections with visualisation and CSV export.</li>
+        <li><strong>Tools Used:</strong> Python, Pandas, Streamlit, Matplotlib</li>
+      </ul>
+
+      <h3>3. IPL Match Simulation &amp; Auction Prediction (Extension)</h3>
+      <ul>
+        <li>Extended the fantasy cricket model to simulate match outcomes between 2 teams using Monte Carlo methods.</li>
+        <li>Predicted auction values of players to identify overvalued and undervalued picks — achieving R² = 0.685 and RMSE of 3.35 crore on auction price prediction.</li>
+        <li><strong>Tools Used:</strong> Python, Scikit-learn, Monte Carlo Simulation</li>
+      </ul>
+
+      <h3>4. Evaluation of "Training and Motivation Tour for Livestock Keepers" Scheme</h3>
+      <ul>
+        <li>Conducted survey-based analysis; applied regression and hypothesis testing to measure scheme outcomes.</li>
+        <li>Generated actionable insights for optimisation, analogous to campaign measurement and attribution reporting.</li>
+        <li><strong>Tools Used:</strong> R, Excel, Power BI</li>
+      </ul>
+
+      <h3>5. Agricultural Profit Optimisation using ML &amp; DoE</h3>
+      <ul>
+        <li>Developed a Random Forest model (R² = 0.69) on a 20-year weather-yield panel dataset using seasonal features.</li>
+        <li>Applied Design of Experiments to simulate strategies and identify the profit-maximising plan — a forecasting and scenario analysis framework applicable to media budget allocation and brand growth optimisation.</li>
+        <li><strong>Tools Used:</strong> Python, Scikit-learn, R</li>
+      </ul>
+
+      <h3>6. DataDrishti (Ongoing)</h3>
+      <ul>
+        <li>Developing an end-to-end analytics platform using Python, machine learning, and Streamlit that automates data profiling, anomaly detection, and insight generation.</li>
+        <li>Delivers 10x faster analysis compared to manual workflows; integrated an LLM via API to produce natural language reports from analysis outputs.</li>
+        <li><strong>Tools Used:</strong> Python, Scikit-learn, Streamlit, LLM API</li>
+      </ul>
+    </section>
+
+    <section id="achievements">
+      <h2>🏆 Achievements</h2>
+      <ul>
+        <li>Presented research on Automated Real-Time Sales Analytics at Sharda University's International Conference (2025).</li>
+        <li>Served as NSS volunteer: managed social media communications, photography, and community outreach initiatives.</li>
+        <li>Led the Decoration Core Team for the Annual Cultural &amp; Technical Festival, overseeing stage design and thematic visual planning.</li>
       </ul>
     </section>
 
     <section id="services">
       <h2>💼 Services Offered</h2>
       <ul>
-        <li>Data Cleaning & Visualization (Power BI, Excel, Python, R)</li>
-        <li>Predictive Modelling & Simulation (Sports, Business, Research)</li>
-        <li>Dashboard Creation & Automation</li>
+        <li>Data Cleaning &amp; Visualization (Power BI, Tableau, Excel, Python, R)</li>
+        <li>Predictive Modelling &amp; Simulation (Sports, Business, Research)</li>
+        <li>Dashboard Creation &amp; Automation</li>
         <li>Statistical Analysis (Hypothesis Testing, Regression, ANOVA)</li>
         <li>Policy and Market Insights</li>
+        <li>Campaign &amp; Performance Reporting</li>
       </ul>
     </section>
-    
+
   </div>
 
 </body>
